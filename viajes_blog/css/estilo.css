@@ -1,0 +1,70 @@
+body{
+  background: url("../img/fondo.jpg") no-repeat fixed center ;
+}
+
+/*barra de navegacion*/
+.barra-nav{
+  height: 7rem;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  margin-top: 0.5rem;
+  border-radius: 1em 1em 1em 1em;
+}
+
+/*contenido de galeria*/
+.red-social{
+  width: 60%;
+  margin-top: 0.5rem;
+}
+
+.card{
+  margin: 2rem;
+}
+
+/*articulo y boigrafia*/
+.articulo{
+  background: white;
+  margin-top: 1rem;
+}
+
+.biografia{
+  background: white;
+  margin: 1rem;
+
+}
+
+.himalaya{
+  width: 300px;
+  float: left;
+  margin: 1rem;
+}
+
+.info{
+  margin: 1rem;
+  padding-top: 1rem;
+}
+
+.contenido{
+  margin: 1rem;
+}
+
+.perfil{
+  padding-top: 1rem;
+}
+
+
+
+/*adaptacion a moviles*/
+@media screen and (max-width: 850px){
+  .barra-nav{
+    height: 21rem;
+  }
+
+  .himalaya{
+    width: 200px;
+  }
+
+}
